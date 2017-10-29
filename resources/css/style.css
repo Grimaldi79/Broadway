@@ -1,13 +1,35 @@
 body,footer{
   font-family: Helvetica;
 }
-#banner,Footer,a{
+Footer,a,.bottom-divider,#banner{
   color: white;
 }
 h1{
   font-size: 70px;
   font-weight: bold;
 }
-#banner,.bottom-divider{
+.bottom-divider,#banner{
   background-image: url(../images/the-flatiron-building.png);
+  background-size: cover;
+}
+#banner p{
+  font-size: 18px;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+h3,.bottom-divider{
+  font-size: 23px;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+}
+footer{
+  background-color: Dimgray;
+  text-align: left;
+}
+.copywrite{
+  font-size: 11px;
 }
